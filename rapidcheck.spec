@@ -42,7 +42,6 @@ This package contains the development files for %{name}.
 
 %install
 %cmake_install
-tree %{buildroot}
 
 %files
 %exclude /usr/share
