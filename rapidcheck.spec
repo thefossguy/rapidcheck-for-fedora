@@ -27,7 +27,8 @@ is still false and then displays this as a counterexample.
 %package     -n rapidcheck-devel
 Summary:        Development files for %{name}
 Requires:       %{name} = %{version}-%{release}
-Requires:       gtest-devel # because this package produces a `rapidcheck_gtest`
+# because this package produces a `rapidcheck_gtest`
+Requires:       gtest-devel
 Requires:       rapidcheck = %{version}-%{release}
 %description -n rapidcheck-devel
 This package contains the development files for %{name}.
